@@ -1,0 +1,245 @@
+.color-top{
+  position: fixed;
+  background-color: green;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-bottom{
+  display: flex;
+  justify-content: space-around;
+  text-align: end;
+}
+
+.image-logo{
+  height: 50px;
+  width: 50px;
+}
+
+.options{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  width: 500px;
+}
+
+.options a{
+  margin-left: 20px;
+}
+
+.options a:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
+.banner{
+  height:80vh;
+}
+
+.offers{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin: -100px 20% 0px;
+}
+
+.offers div{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  border-top: 40px solid green;
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.offers p{
+  color: #fff;
+  margin-top: -35px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.offers h1{
+  color: green;
+  margin-top: -10px;
+  font-size: 70px;
+}
+
+.offers h4{
+  margin-top: -70px;
+  font-size: 40px;
+}
+
+.offers img{
+  margin-top: -40px;
+}
+
+.offers button{
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 20%;
+  height: 40px;
+  width: 90px;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+  color: #fff;
+}
+
+.price{
+  background-color: greenyellow;
+  width: 200px;
+  border-radius: 30%;
+}
+
+.tips{
+  margin-top: 50px;
+  display: flex;
+  justify-content:center;
+}
+
+.tips div{
+  transform: scale(1.1);
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px;
+  margin: 0 30px;
+  background-color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.tips div:hover{
+  transform: scale(1);
+}
+
+.tips h3{
+  color: green;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tips p{
+  color: green;
+  font-size: 16px;
+}
+
+.color-bottom{
+  margin-top: 50px;
+  height: 200px;
+  background-color: #10564F;
+}
+
+.options-bottom{
+  width: 500px;
+  margin-top: 50px;
+}
+
+.options-bottom a{
+  margin-left: 20px;
+}
+
+.options-bottom a:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
+.image-logo-bottom{
+  height: 140px;
+  width: 140px;
+  margin-top: 50px;
+}
+
+.tips-jnnet{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: green;
+}
+
+.button-menu{
+  display: none;
+  font-size: 15px;
+  border-radius: 20%;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nave{
+  position: absolute;
+  display: none;
+}
+
+@media(max-width: 800px){
+  .options a{
+    display: none;
+  }
+
+  .button-menu{
+    display: flex;
+    margin-top: -50px;
+    float: right;
+    margin-right: 10%;
+  }
+
+  .button-menu button{
+    font-size: 15px;
+    border-radius: 20%;
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: #fff;
+  }
+
+  .offers{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 700px;
+    margin-bottom: -80px;
+  }
+
+  .nave{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    text-align: center;
+    background-color: #fff;
+    margin-top: -50px;
+    width: 200px;
+    height: 500%;
+  }
+
+  .nave a{
+    padding: 10px 15px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+  }
+
+  .nave button{
+    font-size: 15px;
+    border-radius: 20%;
+    height: 40px;
+    width: 80px;
+    margin: 20px auto 0px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    color: #fff;
+  }
+
+}
